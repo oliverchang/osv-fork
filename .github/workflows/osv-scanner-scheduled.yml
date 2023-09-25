@@ -27,4 +27,4 @@ permissions:
 
 jobs:
   scan-pr-attempt:
-    uses: "google/osv-scanner/.github/workflows/osv-scanner-reusable-scheduled.yml@main"
+    uses: "google/osv-scanner/.github/workflows/osv-scanner-reusable-scheduled.yml@fix-sarif"
